@@ -60,6 +60,33 @@ Exibe os personagens em cards estilizados.
 ---
 
 # Como executar o projeto
+Como Executar o Projeto
+Pré-requisitos
+
+Instalar:
+
+PHP 8
+Composer
+Node.js (pois foi utilizado o vite, uma ferramenta de desenvolvimento frontend que o Laravel moderno usa para carregar e processar arquivos de:
+CSS
+JavaScript
+Tailwind CSS
+imagens e outros assets
+Laragon
+VS Code)
+
+1. Iniciar o Laragon
+
+Abrir o Laragon e clicar em:
+
+Start All
+
+Verificar se:
+
+Apache Running
+MySQL Running
+
+estão ativos.
 
 ## 1. Clonar repositório
 
