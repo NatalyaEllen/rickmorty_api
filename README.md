@@ -96,7 +96,11 @@ npm install
 ## 5. Copiar arquivo .env (Caso o arquivo .env não exista)
 
 ```bash id="jlwm1k"
+# Windows
 copy .env.example .env
+
+# Linux / macOS
+cp .env.example .env
 ```
 
 ---
