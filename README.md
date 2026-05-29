@@ -60,7 +60,7 @@ Exibe os personagens em cards estilizados.
 ---
 
 # Como executar o projeto
-Como Executar o Projeto
+
 Pré-requisitos
 
 Instalar:
@@ -75,124 +75,54 @@ imagens e outros assets
 Laragon
 VS Code)
 
-1. Iniciar o Laragon
+# Como acessar
+
+## Iniciar o Laragon
+
+# Como acessar
+
+## Iniciar o Laragon
 
 Abrir o Laragon e clicar em:
 
 Start All
 
-Verificar se:
+---
 
-Apache Running
-MySQL Running
+## Executar o projeto
 
-estão ativos.
+Abrir um terminal na pasta do projeto:
 
-## 1. Clonar repositório
-
-```bash id="5fcjgn"
-git clone https://github.com/NatalyaEllen/rickmorty_api.git
+```bash
+php artisan serve --port=8001
 ```
 
 ---
-
-## 2. Entrar na pasta
-
-```bash id="x25n3y"
-cd rickmorty_api
-```
-
----
-
-## 3. Instalar dependências PHP
-
-```bash id="jlwm2e"
-composer install
-```
-
----
-
-## 4. Instalar dependências frontend
-
-```bash id="phtjag"
-npm install
-```
-
----
-
-## 5. Copiar arquivo .env (Caso o arquivo .env não exista)
-
-```bash id="jlwm1k"
-# Windows
-copy .env.example .env
-
-# Linux / macOS
-cp .env.example .env
-```
-
----
-
-## 6. Gerar chave Laravel
-
-```bash id="c1u7zm"
-php artisan key:generate
-```
-
----
-
-# Executar Projeto
-
-## Terminal 1 — Vite
-
-```bash id="z7jjkm"
-npm run dev
-```
-
----
-
-## Terminal 2 — Laravel
-
-```bash id="jlwmrm"
-php artisan serve
-```
-
----
-
-# Acessar no navegador
 
 ## Página Web
 
-```txt id="jlwm1q"
-http://127.0.0.1:8000
-```
+Acessar:
+
+http://127.0.0.1:8001
 
 ---
 
 ## API JSON
 
-```txt id="n4hyk7"
-http://127.0.0.1:8000/api/characters
+Acessar:
+
+http://127.0.0.1:8001/api/characters
+
+---
+
+## Observação
+
+Caso utilize a interface estilizada com Vite:
+
+```bash
+npm install
+npm run dev
 ```
 
----
+O Vite é necessário apenas para carregar o CSS da interface Web.
 
-# Conceitos Aplicados
-
-* API REST
-* Consumo de API externa
-* JSON
-* Laravel MVC
-* Rotas Web e API
-* Blade
-* Vite
-* CSS
-* Frontend Web
-* HTTP Client
-
----
-
-# API Externa Utilizada
-
-Rick and Morty API:
-
-https://rickandmortyapi.com/
