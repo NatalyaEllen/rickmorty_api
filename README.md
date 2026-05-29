@@ -79,10 +79,6 @@ VS Code)
 
 ## Iniciar o Laragon
 
-# Como acessar
-
-## Iniciar o Laragon
-
 Abrir o Laragon e clicar em:
 
 Start All
